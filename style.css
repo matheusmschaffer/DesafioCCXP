@@ -8,5 +8,84 @@ body{
 header{
     width: 100%;
     background: #FFD900;
-    padding: 20px 0px 20px 40px;
+    padding: 20px 0px 20px 0px;
+}
+
+header img{
+    margin-left: 40px;
+}
+
+section{
+    display: flex;
+}
+
+#ladoEsquerdo{
+    width: 45%;
+    background: #514988;
+}
+
+#ladoEsquerdo h1{
+    color: #F3C61F;
+    text-align: center;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px;
+}
+
+#ladoEsquerdo h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+#ladoEsquerdo p{
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 40px;
+}
+
+#ladoDireito{
+    width: 55%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#ladoDireito h2{
+    color: #E33881;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 10px 0;
+}
+
+#countDown{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#countDown h1{
+    color: #514988;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
 }
