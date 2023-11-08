@@ -1,0 +1,12 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background: #FFD900;
+    padding: 20px 0px 20px 40px;
+}
