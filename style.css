@@ -105,11 +105,15 @@ footer button{
     font-weight: 700;
     line-height: normal;
     width: 35%;
-    height: 148px;
+    height: 145px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #514988;
-    
+}
+
+button:hover{
+    cursor: pointer;
+    color: #F3C61F;
 }
 
 #rodape{
@@ -123,4 +127,49 @@ footer button{
     display: flex;
     width: 50%;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 1200px) {
+    body{
+        font-size: 12px;
+    }
+    #ingressos img{
+        margin: 0;
+        width: 40%;
+    }
+
+    footer button{
+        margin-top: 15px;
+        width: 25%;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 10px;
+    }
+    section{
+        flex-direction: column;
+    }
+    #ladoEsquerdo{
+        width: 100%;
+    }
+    #ladoDireito{
+        width: 100%;
+    }
+    #rodape{
+        flex-direction: column;
+    }
+
+    #ingressos img{
+        margin: 0;
+        width: 50%;
+    }
+    footer button{
+        margin-top: 15px;
+        width: 50%;
+        height: 70px;
+    }
+
 }
