@@ -89,3 +89,38 @@ section{
     line-height: normal;
     margin: 0px;
 }
+
+#msgRodape h2{
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 10px 0px 10px 40px;
+    color: #F3C61F;
+}
+
+footer button{
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 35%;
+    height: 148px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #514988;
+    
+}
+
+#rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#ingressos{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
