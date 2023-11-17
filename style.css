@@ -133,6 +133,10 @@ button:hover{
     box-shadow: 5px 5px grey;
 }
 
+.card-selected{
+    border: 5px solid green;
+}
+
 @media only screen and (max-width: 1200px) {
     body{
         font-size: 12px;
