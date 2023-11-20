@@ -13,11 +13,10 @@ function highlightCard(selector){
 function selectedCard(selector){
     var element = document.querySelector(selector);
     element.classList.toggle("card-selected");
-    if (ingressos.includes(selector)) 
-    ingressos.pop(selector);
+    if (ingressos.includes(selector)) ingressos.splice(ingressos.indexOf(selector), 1);
     else ingressos.push(selector)
 }
 
-function showSelectedCards(){
+showSelectedCards = () => {
     if (ingressos.length > 0) alert("Ingressos selecionados:" + ingressos);
 }
